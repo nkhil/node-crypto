@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "create-data": "node src/rsa/create-data-to-encrypt.js",
+    "create-keys": "node src/rsa/rsa.js",
+    "encrypt-data": "node src/rsa/encrypt.js",
     "delete:pem": "rm *.pem",
     "delete:txt": "rm *.txt"
   },
